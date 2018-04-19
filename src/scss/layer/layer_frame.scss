@@ -1,0 +1,198 @@
+
+/**********弹层页面开始**********/
+.vipbasket .vi_layer{
+
+}
+.vipbasket .vi_layer .lay_bg{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+	z-index: 999;
+}
+.vipbasket .vi_layer .cont_bg{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 611px;
+	height: 293px;
+	background: #fff;
+	margin-left: -305px;
+	margin-top: -147px;
+	filter: alpha(opacity=50);
+    opacity: 0.5;
+    z-index: 1000;
+}
+.vipbasket .vi_layer .lay_cont{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 589px;
+	height: 271px;
+	background: #fff;
+	margin-left: -294px;
+	margin-top: -136px;
+	z-index: 1001;
+	/*border: 1px solid #f30;*/
+}
+.vi_layer .lay_cont .inner{
+
+}
+.vi_layer .lay_cont .la_tip{
+	background: #f2f2f2;
+	font-size: 12px;
+	color: #666666;
+	line-height: 30px;
+	padding-left: 10px;
+}
+.vi_layer .lay_cont .la_tip .close{
+	position: absolute;
+	top: 2px;
+	right: 10px;
+	display: inline-block;
+	width: 20px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+	text-align: center;
+}
+.vi_layer .lay_cont .dimen{
+	padding: 15px 24px 0;
+	text-align: center;
+	font-size: 12px;
+}
+.vi_layer .lay_cont .dimen .menh{
+	font-size: 14px;
+	line-height: 40px;
+}
+.vi_layer .lay_cont .dimen .menh span{
+	color: #ff7800;
+}
+.vi_layer .lay_cont .dimen .la_input{
+	margin-bottom: 10px;
+	line-height: 36px;
+}
+.vi_layer .lay_cont .dimen .la_input input{
+	width: 266px;
+	height: 36px;
+	border: 1px solid #cccccc;
+	line-height: normal;
+	padding: 0 16px;
+	vertical-align: middle;
+	color: #333;
+	outline-style: none;
+	background-color: transparent;
+	font-size: 14px;
+}
+.vi_layer .lay_cont .dimen .prompt{
+	text-align: left;
+	margin-left: 120px;
+	margin-bottom: 10px;
+}
+.vi_layer .lay_cont .dimen .prompt .icon{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border-radius: 999px;
+	background: #ff7800;
+	line-height: 16px;
+	color: #fff;
+	text-align: center;
+}
+.vi_layer .lay_cont .dimen .prompt .txt{
+	color: #ff7800;
+}
+.vi_layer .lay_cont .copy{
+	padding-top: 10px;
+	border-top: 1px solid #f2f2f2;
+	text-align: left;
+	line-height: 16px;
+	height: 45px;
+	overflow: hidden;
+}
+.vi_layer .lay_cont .copy span{
+	color: #f01e00;
+}
+.vi_layer .lay_cont .la_button{
+	text-align: right;
+
+}
+.vi_layer .lay_cont .la_button .but{
+	display: inline-block;
+	width: 98px;
+	height: 26px;
+	border: 1px solid #e2e2e2;
+	line-height: 24px;
+	text-align: center;
+}
+.vi_layer .lay_cont .la_button .true{
+	color: #fff;
+	background: #f01e00;
+	border: 1px solid #f01e00;
+}
+.vi_layer .lay_cont .la_button .cancel{
+	color: #666;
+	background: #fff;
+}
+/*选择页面弹层*/
+.choi_layer .selcont{
+	text-align: left;
+}
+.choi_layer .selcont dl{
+	margin-bottom: 15px;
+}
+.choi_layer .selcont dt{
+	width: 24px;
+	float: left;
+}
+.choi_layer .selcont dd{
+	margin-left: 24px;
+}
+.choi_layer .selcont .dlone dt span {
+	display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 999px;
+    background: #ff7800;
+    line-height: 16px;
+    color: #fff;
+    text-align: center;
+}
+.choi_layer .selcont .dltwo .check_box i{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #bbb;
+	border-radius: 1px;
+}
+.choi_layer .selcont .dltwo .selected i{
+	border: 1px solid #c80000;
+	background-image: url(http://img1.hdletv.com/file/20151207/default/14830329245149408);
+	background-position: left top;
+	background-position: left bottom\9;
+	background-size: 35px auto;
+}
+.choi_layer .selcont .repla{
+	text-align: center;
+}
+.choi_layer .selcont .ch_buttn{
+	display: inline-block;
+	width: 98px;
+	height: 28px;
+	background: #f01e00;
+	line-height: 28px;
+	color: #fff;
+	border-radius: 3px;
+}
+
+
+
+
+
+
+
+

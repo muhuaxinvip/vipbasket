@@ -1,0 +1,35 @@
+/*
+* common.css
+*/
+html{
+
+}
+body{
+	background: $baseBgColor;
+	font-size: $baseFontsize;
+}
+.vipbasket .vi_wrapper{
+    width:1200px;
+    margin:0 auto;
+    position: relative;
+}
+/**
+ * font icon
+ */
+@font-face {
+  font-family: "levipbasket";
+  src: url("../../font/weicofont.woff2") format("woff2"), url("../../font/weicofont.woff") format("woff"), url("../../font/weicofont.svg") format("svg"), url("../../font/weicofont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+.fonticon {
+  font-family: "levipbasket";
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  font-size: 17px; 
+  font-style: normal;}
+
+/*arrow right chart 1*/
+.fonticon-index-basket::before {
+  content: "\E001"; }
+

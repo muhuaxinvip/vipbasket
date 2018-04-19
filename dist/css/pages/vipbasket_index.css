@@ -1,0 +1,201 @@
+@charset "UTF-8";
+/**
+ * var
+ */
+/* 背景色 */
+/* 橙色系 */
+/* 灰色系 */
+/* 线框色 */
+/* 文字色 */
+/* web 字体大小 */
+/* mobile 字体大小 */
+/*
+* common.css
+*/
+body {
+  background: #fafafa;
+  font-size: 12px; }
+
+.vipbasket .vi_wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative; }
+
+/**
+ * font icon
+ */
+@font-face {
+  font-family: "levipbasket";
+  src: url("../../font/weicofont.woff2") format("woff2"), url("../../font/weicofont.woff") format("woff"), url("../../font/weicofont.svg") format("svg"), url("../../font/weicofont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+.fonticon {
+  font-family: "levipbasket";
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  font-size: 17px;
+  font-style: normal; }
+
+/*arrow right chart 1*/
+.fonticon-index-basket::before {
+  content: "\E001"; }
+
+/*本页面开始*/
+.vipbasket .vi_wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative; }
+
+.vi_wrapper .homecon {
+  padding-top: 35px; }
+
+.vi_wrapper .homecon .left_wrap {
+  width: 900px; }
+
+.vi_wrapper .homecon .right_wrap {
+  width: 240px; }
+
+.vi_wrapper .homecon .ind_tit {
+  line-height: 46px;
+  height: 48px;
+  border: 1px solid #eeeeee;
+  padding-left: 5px;
+  margin-bottom: 20px;
+  background: #ffffff; }
+
+.vi_wrapper .homecon .ind_tit li {
+  float: left;
+  text-align: center; }
+
+.vi_wrapper .homecon .ind_tit .chobut {
+  display: inline-block;
+  color: #333;
+  font-size: 16px;
+  margin: 0 30px; }
+
+.vi_wrapper .homecon .ind_tit .sele {
+  border-bottom: 3px solid #f01e00;
+  color: #f01e00; }
+
+.vi_wrapper .homecon .ind_tit li a:hover {
+  border-bottom: 3px solid #f01e00;
+  color: #f01e00; }
+
+.homecon .list_box .li_mod {
+  position: relative;
+  height: 240px;
+  margin-bottom: 30px; }
+
+.homecon .list_box .li_mod .pictu {
+  font-size: 0; }
+
+.homecon .list_box .li_mod .pictu img {
+  width: 900px;
+  height: 240px; }
+
+.homecon .list_box .li_mod .expword {
+  position: absolute;
+  top: 31px;
+  right: 56px;
+  width: 326px;
+  height: 180px;
+  background: #ffffff; }
+
+.homecon .list_box .li_mod .expword dl {
+  border: 1px solid #d8d8d8;
+  width: 304px;
+  height: 158px;
+  margin: 10px;
+  text-align: center; }
+
+.homecon .list_box .li_mod .expword dd {
+  text-align: left;
+  padding: 0 12px;
+  line-height: 20px;
+  height: 60px;
+  overflow: hidden;
+  color: #999; }
+
+.homecon .list_box .li_mod .expword dt {
+  padding-top: 16px;
+  height: 44px;
+  overflow: hidden;
+  margin-bottom: 25px; }
+
+.homecon .list_box .li_mod .expword dt .maitit {
+  font-size: 0px;
+  color: #666;
+  max-width: 304px;
+  overflow: hidden; }
+
+.homecon .list_box .li_mod .expword dt span {
+  display: inline-block;
+  padding: 0 12px;
+  font-size: 18px;
+  max-width: 222px;
+  overflow: hidden; }
+
+.homecon .list_box .li_mod .expword dt .maitit .line {
+  display: inline-block;
+  width: 40px;
+  border-bottom: 1px solid #666;
+  vertical-align: 10px; }
+
+.homecon .list_box .li_mod .expword dt .subt {
+  font-size: 14px;
+  line-height: 28px;
+  color: #888; }
+
+/*不同背景色*/
+.homecon .list_box .deep .expword {
+  background: #e5e5e5; }
+
+.homecon .list_box .deep .expword dl {
+  border: 1px solid #fff; }
+
+.homecon .video_box li {
+  width: 240px;
+  height: 150px;
+  overflow: hidden;
+  margin-bottom: 20px; }
+
+.homecon .video_box .carvid {
+  font-size: 0; }
+
+.homecon .video_box .carvid img {
+  width: 240px;
+  height: 150px; }
+
+.index_icon {
+  background-image: url("http://img1.hdletv.com/file/20160510/default/2339077150852942");
+  background-repeat: no-repeat;
+  background-size: 250px auto;
+  -webkit-background-size: 250px auto;
+  -o-background-size: 250px auto;
+  -ms-background-size: 250px auto;
+  -moz-background-size: 250px auto; }
+
+.homecon .video_box .index_icon {
+  width: 34px;
+  height: 35px;
+  top: 58px;
+  left: 103px;
+  background-position: -100px -138px;
+  background-position: 0 -278px \9; }
+
+.homecon .video_box .tips {
+  width: 216px;
+  height: 35px;
+  line-height: 35px;
+  text-align: left;
+  bottom: 0px;
+  left: 0;
+  background-color: rgba(51, 51, 51, 0.6);
+  padding: 0 12px;
+  color: #fff;
+  font-size: 12px; }
+
+.homecon .video_box li a :hover .index_icon {
+  background-position: -100px -182px;
+  background-position: 0 -364px \9; }

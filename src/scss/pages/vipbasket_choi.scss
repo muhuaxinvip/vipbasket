@@ -1,0 +1,476 @@
+@import"../lib/base";
+@import"../layer/layer_frame";
+
+/**********本页面开始**********/
+.vipbasket {
+	min-height: 2000px;
+}
+
+.vi_wrapper .content{
+	padding-top: 20px;
+}
+/*选会员*/
+.vi_wrapper .first{
+	margin-bottom: 75px;
+}
+.vi_wrapper .headtip{
+	text-align: center;
+	padding-top: 30px;
+	height: 40px;
+	position: relative;
+
+}
+.vi_wrapper .headtip h3{
+	font-size: $s-fs;
+	position: absolute;
+	left: 50%;
+	top: 8px;
+	margin-left: -74px;
+	background: $baseBgColor;
+	padding: 20px;
+}
+.vi_wrapper .headtip .headline{
+	width: 606px;
+	border-bottom: 1px solid $bdColor-c;
+	display: inline-block;
+}
+.vi_wrapper .stepone .tit{
+	width: 184px;
+	height: 28px;
+	border:1px solid $bdColor-b;
+	background: $bgColor-a;
+	border-radius: 999px;
+	line-height: 28px;
+	color: $bgColor-b;
+	padding: 0 3px;
+	float: left;
+	margin-left: 10px;
+}
+.vi_wrapper .stepone .tit .cirbor{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 999px;
+	background: $bgColor-b;
+	line-height: 20px;
+	color: $txtColor-d;
+	text-align: center;
+}
+.vi_wrapper .stepone .tit h3{
+	margin-left: 30px;
+}
+.vi_wrapper .stepone{
+	position: relative;
+	margin-bottom: 60px;
+}
+.vi_wrapper .stepone .leftxt{
+	float: left;
+	font-size: $xxs-fs;
+	line-height: 30px;
+	position: relative;
+	color: $txtColor-a;
+}
+.vi_wrapper .stepone .leftxt b{
+	display: inline-block;
+	width: 15px;
+	height: 2px;
+	background: $bgColor-b;
+	position: absolute;
+	top: 14px;
+	left: 30px;
+}
+
+.vi_wrapper .stepone .stecon{
+	margin-left: 282px;
+    height: 38px;
+    overflow: hidden;
+    line-height: 20px;
+    color: $txtColor-b;
+}
+.vi_wrapper .stepone .stemore{
+	position: absolute;
+	right: 0px;
+	bottom: -19px;
+}
+
+
+
+.vi_wrapper .first .carbox{
+	text-align: center;
+	margin-right: -30px;
+}
+.vi_wrapper .first .carbox .mod{
+	float: left;
+	width: 378px;
+	margin-right: 30px;
+	background: $bgColor-a;
+	padding: 20px 0px 0px;
+	border: 1px solid $bdColor-e;
+}
+.vi_wrapper .first .carbox .mod:hover{
+	cursor:pointer;
+	border: 1px solid $bdColor-d;
+}
+.vi_wrapper .first .carbox .mod:hover .butbox{
+	border-top: 1px solid $bdColor-d;
+}
+.vi_wrapper .first .carbox .mod:hover .btn-a{
+	background: $bdColor-d;
+	color: $txtColor-d;
+}
+.vi_wrapper .first .carbox .amone{
+	color: $txtColor-h;
+}
+.vi_wrapper .first .carbox .imgico img{
+	width: 50px;
+	height: 50px;
+}
+.vi_wrapper .first .carbox .mod p{line-height: 26px;font-size: $xxs-fs;}
+/*商品数量*/
+.vi_wrapper .monumbox{padding: 10px 0 30px;position: relative;}
+.vi_wrapper .monumbox .year{
+	position: absolute;
+	right: 125px;
+    top: 12px;
+    color: $txtColor-b;
+}
+.vi_wrapper .num_animate{border:1px solid #ececec;background: #fff;width: 80px;height:26px;line-height: 26px;margin: 0 auto;position: relative;overflow: hidden;}
+.vi_wrapper .num_animate a{display:block;line-height: 26px;width: 26px;height:26px;background-image:url(http://img1.hdletv.com/file/20160225/default/3066175690793801) ; background-repeat:no-repeat;text-indent:-800px;overflow:hidden;background:none\9;text-indent:0\9;text-align: center\9;font-size: 14px;position:absolute;}
+.vi_wrapper .num_animate .minus{ background-size: 52px auto ; background-position:right top;left:0;top:0;}
+.vi_wrapper .num_animate .plus{ background-size: 52px auto ; background-position:left top;right:0;top:0;}
+.vi_wrapper .num_animate .minus.invalid{background-position:right bottom; color:#dfdfdf;cursor: default;}
+.vi_wrapper .num_animate .plus.invalid{background-position:left bottom;color:#dfdfdf;cursor: default;}
+.vi_wrapper .num_animate input{display:block;line-height: 26px;width: 26px;height:26px;border:none;background:none;text-align: center;}
+.vi_wrapper .num_animate .num1{position:absolute;left:26px;top:0;}
+/*按钮*/
+.vi_wrapper .butbox{
+	border-top: 1px solid $bdColor-c;
+}
+.vi_wrapper .butbox .btn-a{
+	display: inline-block;
+    width: 100%;
+    /*height: 36px;*/
+    line-height: 40px;
+    font-size: $xxs-fs;
+    text-align: center;
+    color: $txtColor-h;
+    cursor: pointer;
+}
+.vi_wrapper .butbox .fonticon{
+	margin-right: 15px;
+	font-style: normal;
+}
+/*选硬件*/
+.vi_wrapper .second .stepone .tit{
+	color: $bgColor-f;
+}
+.vi_wrapper .second .stepone .leftxt b{
+	background: $bgColor-f;
+}
+.vi_wrapper .second .stepone .tit .cirbor{
+	background: $bgColor-f;
+}
+.vi_wrapper .second .tipbox{
+	text-align: left;
+	background: $bgColor-a url("../../../dist/images/vipbasket_bg.png") no-repeat;
+	color: #000;
+	height: 114px;
+	font-size: 14px;
+	line-height: 16px;
+	margin-bottom: 30px;
+	padding-left: 20px;
+}
+.vi_wrapper .second .tipbox .left{
+	color: $txtColor-d;
+	text-align: left;
+}
+.vi_wrapper .second .tipbox .left .pri{
+	font-family: Impact;
+}
+.vi_wrapper .second .tipbox .left .pri sup{
+	font-size: 30px;
+    vertical-align: 12px;
+}
+.vi_wrapper .second .tipbox .left .pri span{
+	font-size: 60px;
+	line-height: 70px;
+}
+.vi_wrapper .second .tipbox .left .exp{
+	line-height: 40px;
+}
+.vi_wrapper .second .tipbox .righ{
+	margin-left: 290px;
+	line-height: 22px;
+	padding-top: 25px;
+}
+.vi_wrapper .second .tipbox .righ dt{
+	font-size: $xxs-fs;
+}
+.vi_wrapper .second .tipbox .righ dd{
+	color: $txtColor-b;
+	font-size: $baseFontsize;
+}
+.vi_wrapper .second .stepone{
+	margin-bottom: 34px;
+}
+
+.vi_wrapper .second .list_box .stul{margin-right: -10px;}
+.vi_wrapper .second .list_box .stli {
+	width: 228px;
+	height: 340px;
+	overflow: hidden;
+	background: #fff;
+	color: #000;
+	float: left;
+	margin-right: 12px;
+	margin-bottom: 12px;
+	border: 1px solid $bdColor-e;
+}
+.vi_wrapper .second .list_box .stli img{width: 200px;height: 200px;}
+.vi_wrapper .second .list_box .pro_img{
+	padding: 15px 10px 0 10px;
+}
+.vi_wrapper .second .list_box .pro_txt{
+	padding: 0 10px;
+	line-height: 18px;
+	height: 36px;
+	overflow: hidden;
+}
+.vi_wrapper .second .list_box .stli:hover{
+	border: 1px solid $bdColor-d;
+}
+.vi_wrapper .second .list_box .stli:hover .addbtn{
+	background: $bdColor-d;
+	color: $txtColor-d;
+}
+.vi_wrapper .second .list_box .stli:hover .shopcar{
+	border-top: 1px solid $bdColor-d;
+}
+.vi_wrapper .second .list_box .stli a:hover .pro_txt{
+	color: $txtColor-a;
+}
+.vi_wrapper .second .list_box .stli:hover .through{
+	color: $txtColor-b;
+}
+.vi_wrapper .second .list_box .pro_pri{
+	padding: 2px 10px 20px;
+	line-height: 24px;
+	height: 24px;
+}
+.vi_wrapper .second .list_box .pro_pri .red{
+	font-size: $xxs-fs;
+	display: inline-block;
+	margin-right: 10px;
+}
+.vi_wrapper .second .list_box .pro_pri .through{
+	color: $txtColor-b;
+}
+.vi_wrapper .second .list_box .shopcar{
+	text-align: center;
+	border-top: 1px solid $bdColor-c;
+}
+.vi_wrapper .second .list_box .shopcar .addbtn{
+	display: inline-block;
+    width: 100%;
+    line-height: 40px;
+    font-size: $baseFontsize;
+    text-align: center;
+    color: #f13419;
+    cursor: pointer;
+}
+.vi_wrapper .second .list_box .shopcar .addbtn .fonticon{
+	margin-right: 15px;
+	vertical-align: sub;
+	font-style: normal;
+}
+/*右下角浮层*/
+.vi_wrapper .vi_cartbox{
+	position: fixed;
+	right: 35px;
+	bottom: 0px;
+	width: 320px;
+	background: $bgColor-a;
+	overflow: hidden;
+	z-index: 99;
+}
+.vi_wrapper .vi_cartbox .catit{
+	background-size: 400px 350px;
+	background: url("../../../dist/images/vipbasket_bg.png") no-repeat;
+	background-position: 0 -133px;
+	height: 50px;
+	color: $txtColor-d;
+	padding: 0 22px;
+	cursor:pointer
+}
+.vi_wrapper .vi_cartbox .catit h3{
+	font-size: $xxs-fs;
+	line-height: 48px;
+}
+.vi_wrapper .vi_cartbox .catit span{
+	display: inline-block;
+	float: right;
+	font-size: 30px;
+	line-height: 36px;
+	font-family: Impact;
+}
+.vi_wrapper .vi_cartbox .catit sup{
+	font-size: $xs-fs;
+
+}
+.vi_wrapper .vi_cartbox .catit{
+
+}
+.vi_wrapper .vi_cartbox dl{
+	margin-top: -1px;
+	border:1px solid $bdColor-c;
+	max-height: 400px;
+	color: $txtColor-a;
+	background: #efefef;
+	overflow: auto;
+}
+.vi_wrapper .vi_cartbox .cardt{
+	height: 80px;
+	border-bottom: 1px solid #f2f2f5;
+	padding-left: 20px;
+	background: $bgColor-a;
+}
+.vi_wrapper .vi_cartbox .cardt .upp{
+	font-size: $xs-fs;
+	color: $txtColor-a;
+	line-height: 45px;
+}
+.vi_wrapper .vi_cartbox .cardt .low{
+
+}
+.vi_wrapper .vi_cartbox .cardt .low b{
+	display: inline-block;
+	background: $bdColor-d;
+	color: $txtColor-d;
+	padding: 3px;
+	border-radius: 2px;
+	letter-spacing:1px
+}
+.vi_wrapper .vi_cartbox .carlist{
+	padding: 15px 15px 0 12px;
+	background: $bgColor-a;
+	height: 75px;
+	margin-bottom: 15px;
+}
+
+.vi_wrapper .vi_cartbox .carlist .imlef{
+	width: 50px;
+	height: 50px;
+	border: 1px solid $bdColor-a;
+	float: left;
+}
+.vi_wrapper .vi_cartbox .carlist .imlef img{
+	width: 50px;
+	height: 50px;
+}
+.vi_wrapper .vi_cartbox .carlist .txrig{
+	margin-left: 62px;
+}
+.vi_wrapper .vi_cartbox .carlist .txrig .t-one{
+	height: 18px;
+}
+.vi_wrapper .vi_cartbox .carlist .txrig .t-one .ba{
+	float: right;
+	color: $txtColor-h;
+}
+.vi_wrapper .vi_cartbox .carlist .txrig .t-two{
+	margin-bottom: 4px;
+}
+.vi_wrapper .vi_cartbox .carlist .txrig .t-two .num_animate{
+	float: right;
+}
+.vi_wrapper .vi_cartbox .carlist .txrig .t-thre{
+	text-align: right;
+	display: none;
+}
+.vi_wrapper .vi_cartbox .carlist .txrig .t-thre a{
+	color: $txtColor-b;
+}
+.vi_wrapper .vi_cartbox .carlist:hover .t-thre{
+	display: block;
+	cursor:pointer;
+}
+.vi_cartbox .footadd{
+	height: 65px;
+}
+.vi_cartbox .footadd .fotle{
+	width: 72px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+.vi_cartbox .footadd .fotle .tipnum{
+	display: inline-block;
+	position: absolute;
+	top: 15px;
+	left: 8px;
+	background: $bdColor-d;
+	width: 18px;
+	height: 15px;
+	border-radius: 10px;
+	color: $txtColor-d;
+	line-height: 15px;
+}
+.vi_cartbox .footadd .fotle .fonticon{
+	font-size: 40px;
+	color: $txtColor-h;
+	line-height: 65px;
+	font-style: normal;
+}
+.vi_cartbox .footadd .fotcen{
+	width: 140px;
+	float: left;
+	overflow: hidden;
+	line-height: 22px;
+	padding-top: 10px;
+}
+.vi_cartbox .footadd .fotcen .num{
+	font-size: $xs-fs;
+	color: $txtColor-h;
+}
+.vi_cartbox .footadd .fotrig{
+	width: 108px;
+	height: 65px;
+	background: $bdColor-d;
+	float: left;
+	text-align: center;
+}
+.vi_cartbox .footadd .fotrig a{
+	line-height: 65px;
+	color: $txtColor-d;
+	font-size: $xs-fs;
+
+}
+/*翻页*/
+.FY{height:53px;padding-top:10px;font-size:12px;line-height:20px;text-align:right}
+.pagination a,.pagination span{display:inline-block;*display:inline;*zoom:1;text-align:center;width:22px;height:22px;overflow:hidden;border:0 solid #fff;color:#999;margin:0 2px}
+.pagination a:hover{color:#333}
+.pagination .ellipse{background:0}
+.pagination span.current{cursor:default;color:#333}
+.pagination .prev{background-image:url(http://img1.hdletv.com/file/20151120/default/13379484316754087);background-size:10px auto;background-repeat:no-repeat;background-position:center -295px;text-indent:9999px}
+.pagination .next{background-image:url(http://img1.hdletv.com/file/20151120/default/13379484316754087);background-size:10px auto;background-repeat:no-repeat;background-position:center -333px;text-indent:9999px}
+.pagination .prev:hover{background-position:center -370px}
+.pagination .next:hover{background-position:center -407px}
+.pagination .prev.current{background-position:center -295px}
+.pagination .next.current{background-position:center -407px}
+.pagination a:hover,.pagination .hover{border:1px solid #ccc;width:20px;height:20px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

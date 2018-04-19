@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/**
+ * var
+ */
+/* 背景色 */
+/* 橙色系 */
+/* 灰色系 */
+/* 线框色 */
+/* 文字色 */
+/* web 字体大小 */
+/* mobile 字体大小 */
+/*
+* common.css
+*/
+body {
+  background: #fafafa;
+  font-size: 12px; }
+
+.vipbasket .vi_wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative; }
+
+/**
+ * font icon
+ */
+@font-face {
+  font-family: "levipbasket";
+  src: url("../../font/weicofont.woff2") format("woff2"), url("../../font/weicofont.woff") format("woff"), url("../../font/weicofont.svg") format("svg"), url("../../font/weicofont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+.fonticon {
+  font-family: "levipbasket";
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  font-size: 17px;
+  font-style: normal; }
+
+/*arrow right chart 1*/
+.fonticon-index-basket::before {
+  content: "\E001"; }
+
+.vipbasket {
+  min-height: 2000px; }
+
+.vipbasket .vi_wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative; }
+
+.vi_wrapper .content {
+  padding-top: 20px; }
+
+/*选会员*/
+.vi_wrapper .first {
+  margin-bottom: 20px; }
+
+.vi_wrapper .tit {
+  line-height: 30px; }
+
+.vi_wrapper .tit .cirbor {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  background: #f30;
+  line-height: 20px;
+  color: #fff;
+  text-align: center; }
+
+.vi_wrapper .first .txtbox {
+  padding: 16px 40px;
+  font-size: 16px;
+  line-height: 24px; }
+
+.vi_wrapper .first .carbox {
+  height: 180px;
+  background: #fff;
+  text-align: center;
+  padding: 20px 0px 10px; }
+
+.vi_wrapper .first .carbox .mod {
+  float: left;
+  width: 400px; }
+
+.vi_wrapper .first .carbox .mod p {
+  line-height: 28px;
+  font-size: 20px; }
+
+/*商品数量*/
+.vi_wrapper .num_animate {
+  border: 1px solid #ececec;
+  background: #fff;
+  width: 80px;
+  height: 26px;
+  line-height: 26px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden; }
+
+.vi_wrapper .num_animate a {
+  display: block;
+  line-height: 26px;
+  width: 26px;
+  height: 26px;
+  background-image: url(http://img1.hdletv.com/file/20160225/default/3066175690793801);
+  background-repeat: no-repeat;
+  text-indent: -800px;
+  overflow: hidden;
+  background: none\9;
+  text-indent: 0\9;
+  text-align: center\9;
+  font-size: 14px;
+  position: absolute; }
+
+.vi_wrapper .num_animate .minus {
+  background-size: 52px auto;
+  background-position: right top;
+  left: 0;
+  top: 0; }
+
+.vi_wrapper .num_animate .plus {
+  background-size: 52px auto;
+  background-position: left top;
+  right: 0;
+  top: 0; }
+
+.vi_wrapper .num_animate .minus.invalid {
+  background-position: right bottom;
+  color: #dfdfdf;
+  cursor: default; }
+
+.vi_wrapper .num_animate .plus.invalid {
+  background-position: left bottom;
+  color: #dfdfdf;
+  cursor: default; }
+
+.vi_wrapper .num_animate input {
+  display: block;
+  line-height: 26px;
+  width: 26px;
+  height: 26px;
+  border: none;
+  background: none;
+  text-align: center; }
+
+.vi_wrapper .num_animate .num1 {
+  position: absolute;
+  left: 26px;
+  top: 0; }
+
+/*按钮*/
+.vi_wrapper .butbox {
+  margin-top: 20px; }
+
+.vi_wrapper .butbox .btn-a {
+  display: inline-block;
+  background: #d80c18;
+  width: 148px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+  border: 1px solid #d80c18;
+  text-align: center;
+  color: #fff !important;
+  border-radius: 3px;
+  cursor: pointer; }
+
+/*选硬件*/
+.vi_wrapper .second .tipba {
+  text-align: center;
+  background: #f30;
+  color: #fff;
+  width: 1200px;
+  height: 70px;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 15px 0;
+  margin-bottom: 30px; }
+
+.vi_wrapper .second .tit {
+  margin-bottom: 20px; }
+
+.vi_wrapper .second .tipba .pri {
+  font-size: 30px;
+  line-height: 50px; }
+
+.vi_wrapper .second .list_box .stul {
+  margin-right: -20px; }
+
+.vi_wrapper .second .list_box .stli {
+  width: 224px;
+  background: #fff;
+  color: #000;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px; }
+
+.vi_wrapper .second .list_box .stli img {
+  width: 200px;
+  height: 200px; }
+
+.vi_wrapper .second .list_box .pro_img {
+  padding: 15px 10px 0 10px; }
+
+.vi_wrapper .second .list_box .pro_txt {
+  padding: 0 10px; }
+
+.vi_wrapper .second .list_box .pro_pri {
+  padding: 15px 10px 10px 10px; }
+
+.vi_wrapper .second .list_box .shopcar {
+  text-align: center;
+  border-top: 1px solid #d9d9d9;
+  padding: 10px 0; }
+
+.vi_wrapper .second .list_box .shopcar img {
+  width: 32px;
+  height: 32px; }
+
+.vi_wrapper .vi_cartbox {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  width: 420px;
+  height: 500px;
+  background: #fff;
+  z-index: 99; }
+
+.vi_wrapper .vi_cartbox .catit {
+  background: #f30;
+  line-height: 40px;
+  text-align: right;
+  color: #fff;
+  font-size: 18px; }
+
+.vi_wrapper .vi_cartbox .catit span {
+  display: inline-block;
+  margin: 0 15px 0 20px; }
+
+.vi_wrapper .vi_cartbox dl {
+  padding: 0 16px; }
+
+.vi_wrapper .vi_cartbox dt {
+  height: 60px;
+  border-bottom: 1px solid #f2f2f5; }

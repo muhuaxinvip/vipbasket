@@ -1,0 +1,35 @@
+{
+  "name": "vipbasket",
+  "version": "1.0.0",
+  "description": "vipbasket project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mu huaxin",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-batch": "^1.0.5",
+    "gulp-batch-replace": "0.0.0",
+    "gulp-cache": "^0.4.6",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-iconfont": "^8.0.1",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-livereload": "^3.8.1",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-run-sequence": "^0.3.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-svgicons2svgfont": "^4.0.2",
+    "gulp-uglify": "^1.5.4",
+    "gulp-watch": "^4.3.9",
+    "jshint": "^2.9.5"
+  }
+}

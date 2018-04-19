@@ -1,0 +1,217 @@
+@charset "UTF-8";
+@import"../layer/layer_frame";
+/**********订单页面开始**********/
+
+
+.vi_bing .vibing_inform{
+	position: relative;
+	border: 1px solid #dfdfdf;
+	top: 0px;
+	left: 60px;
+	background: #fff;
+	text-align: left;
+	font-size: 12px;
+	padding: 8px 0 8px 8px;
+	color: #888;
+	width: 100%;
+	line-height: 16px;
+	display: none;
+}
+.order_list_item2 .vi_bing:hover .vibing_inform{
+	display: block;
+}
+.vi_bing .vi_current,
+.vi_bing .vi_other{
+	background: #fff;
+}
+.vi_bing .vi_current{
+	border: 1px solid #ff9133;
+}
+.vi_bing .vi_current .dark{
+	color: #ff9133;
+}
+.vi_bing .vi_other{
+	border: 1px solid #f05353;
+}
+.vi_bing .vi_other .dark{
+	color: #f05353;
+}
+.vi_bing .vi_current:hover{
+	background: #ff9133;
+}
+.vi_bing .vi_current:hover .dark{
+	color: #fff;
+}
+.vi_bing .vi_other:hover{
+	background: #f05353;
+}
+.vi_bing .vi_other:hover .dark{
+	color: #fff;
+}
+// .vi_order .derul{
+// 	background: #f7f7f7;
+// }
+// .vi_order .derli{
+// 	border: 1px solid #ececec;
+// 	height: 160px;
+// 	background: #fff;
+// 	margin-bottom: 10px;
+// 	overflow: hidden;
+// }
+// .vi_order .derli .titbox{
+// 	line-height: 40px;
+// 	border-bottom: 1px solid #ececec;
+// 	padding-left: 24px;
+// 	color: #999999;
+// 	background: #f9f9f9;
+// }
+// .vi_order .derli i{
+// 	font-style: normal;
+// }
+// .vi_order .derli .titbox a{
+// 	color: #999999;
+// }
+// .vi_order .derli .titbox a:hover {
+//     color: #d80c18;
+// }
+// .vi_order .derli .titbox .leff{
+// 	display: inline-block;
+// 	margin-right: 50px;
+// }
+// .vi_order .derli .titbox .leff .consi{
+// 	padding-right: 20px;
+// }
+// .vi_order .derli .contwrap{
+
+// }
+// .vi_order .derli .apleft{
+// 	width: 604px;
+// 	height: 119px;
+// 	border-right: 1px solid #ececec;
+// 	float: left;
+// }
+// .vi_order .derli .contwrap .cell{
+// 	float: left;
+// }
+// .vi_order .derli .apleft .ap_img{
+// 	width: 70px;
+// 	height: 70px;
+// 	border: 1px solid #ececec;
+// 	margin-left: 20px;
+// 	text-align: center;
+// }
+// .vi_order .derli .apleft .ap_img img{
+// 	width: 60px;
+// 	height: 60px;
+// 	margin-top: 5px;
+// }
+// .vi_order .derli .apleft .ap_img,
+// .vi_order .derli .apleft .ap_name,
+// .vi_order .derli .apleft .ap_price,
+// .vi_order .derli .apleft .ap_selec{
+// 	margin-top: 19px;
+// 	line-height: 16px;
+// }
+// .vi_order .derli .apleft .ap_name{
+// 	padding-left: 20px;
+// 	width: 290px;
+// }
+// .vi_order .derli .apleft .ap_name,
+// .vi_order .derli .apleft .ap_price,
+// .vi_order .derli .apleft .ap_selec{
+// 	padding-top: 8px;
+// }
+// .vi_order .derli .apleft .ap_name,
+// .vi_order .derli .apleft .ap_price{
+// 	color: #666;
+// }
+// .vi_order .derli .apleft .ap_price{
+// 	width: 90px;
+// 	padding-right: 10px;
+// 	text-align: right;
+// }
+// .vi_order .derli .apleft .ap_selec{
+// 	width: 100px;
+// 	text-align: center;
+// }
+
+// .vi_order .derli .apright{
+// 	width: 383px;
+// 	height: 119px;
+// 	background: #fffdf8;
+// 	float: left;
+// }
+// .vi_order .derli .apright .cell{
+// 	float: left;
+// }
+// .vi_order .derli .apright .ap_numbe,
+// .vi_order .derli .apright .ap_bind,
+// .vi_order .derli .apright .ap_debut{
+// 	margin-top: 25px;
+// 	line-height: 18px;
+// 	text-align: center;
+// }
+// .vi_order .derli .apright .ap_numbe{
+// 	width: 130px;
+// 	color: #333;
+// }
+// .vi_order .derli .apright .ap_bind{
+// 	width: 120px;
+// 	color: #999;
+// }
+// .vi_order .derli .apright .ap_debut{
+// 	width: 130px;
+// 	color: #999;
+// }
+// .vi_order .derli .contwrap a{
+// 	color: #999;
+// }
+// .vi_order .derli .contwrap a:hover {
+//     color: #d80c18;
+// }
+// .vi_order .derli .apright .ap_bind .mitip{
+// 	display: inline-block;
+// 	width: 16px;
+// 	height: 16px;
+// 	border-radius: 999px;
+// 	background: #efefef;
+// 	vertical-align: middle;
+// }
+// .vi_order .derli .apright .ap_bind i{
+// 	display: inline-block;
+// 	width: 8px;
+//     height: 5px;
+//     background: url("http://img3.hdletv.com/file/20151118/default/13216203568749715") no-repeat;
+//     margin-top: 6px;
+// }
+// .vi_order .derli .apright .ap_bind a{
+// 	color: #ff8200;
+// }
+// .vi_order .derli .apright .ap_bind .track{
+// 	padding-top: 10px;
+// }
+// .vi_order .derli .apright .ap_debut p{
+// 	margin-bottom: 10px;
+// }
+// .vi_order .derli .apright .ap_debut .switch{
+// 	margin-bottom: 7px;
+// }
+// .vi_order .derli .apright .ap_debut .switch .but{
+// 	display: inline-block;
+// 	width: 71px;
+// 	height: 21px;
+// 	color: #fff;
+// 	text-align: center;
+// 	background: #f05353;	
+// 	line-height: 21px;
+// }
+// .vi_order .derli .apright .ap_debut .switch .other{
+// 	background:#ff8200;
+// }
+
+
+
+
+
+
+
